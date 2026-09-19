@@ -1,0 +1,10 @@
+.venv/
+input_archive/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/raw/uci_druglib.zip
+results/*.log
+results/*.err
+results/pip-install.*
+results/venv-install.*

@@ -1,0 +1,23 @@
+{
+  "Tuned Logistic Regression": {
+    "No Side Effects": 0.3296359996890547,
+    "Mild Side Effects": 0.42947898654236527,
+    "Severe Side Effects": 0.931126386019897,
+    "micro": 0.5641957111551706,
+    "macro": 0.5642945170957404
+  },
+  "Tuned RandomForest": {
+    "No Side Effects": 0.32872259794776115,
+    "Mild Side Effects": 0.4516089015863469,
+    "Severe Side Effects": 0.9329605622432746,
+    "micro": 0.5872704267974539,
+    "macro": 0.5720200452424533
+  },
+  "Tuned SVC": {
+    "No Side Effects": 0.3126991993159204,
+    "Mild Side Effects": 0.43341478084354557,
+    "Severe Side Effects": 0.9307049409976969,
+    "micro": 0.5687704044364277,
+    "macro": 0.5598654401630369
+  }
+}

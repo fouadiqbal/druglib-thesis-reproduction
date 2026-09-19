@@ -1,0 +1,64 @@
+{
+  "source": "UCI Drug Reviews (Druglib.com), ID 461",
+  "train_rows": 3107,
+  "test_rows": 1036,
+  "total_rows": 4143,
+  "train_columns": [
+    "Unnamed: 0",
+    "urlDrugName",
+    "rating",
+    "effectiveness",
+    "sideEffects",
+    "condition",
+    "benefitsReview",
+    "sideEffectsReview",
+    "commentsReview"
+  ],
+  "test_columns": [
+    "Unnamed: 0",
+    "urlDrugName",
+    "rating",
+    "effectiveness",
+    "sideEffects",
+    "condition",
+    "benefitsReview",
+    "sideEffectsReview",
+    "commentsReview"
+  ],
+  "train_sideEffects_counts": {
+    "Mild Side Effects": 1019,
+    "No Side Effects": 930,
+    "Moderate Side Effects": 614,
+    "Severe Side Effects": 369,
+    "Extremely Severe Side Effects": 175
+  },
+  "test_sideEffects_counts": {
+    "Mild Side Effects": 330,
+    "No Side Effects": 268,
+    "Moderate Side Effects": 236,
+    "Severe Side Effects": 122,
+    "Extremely Severe Side Effects": 80
+  },
+  "train_null_counts": {
+    "Unnamed: 0": 0,
+    "urlDrugName": 0,
+    "rating": 0,
+    "effectiveness": 0,
+    "sideEffects": 0,
+    "condition": 1,
+    "benefitsReview": 18,
+    "sideEffectsReview": 75,
+    "commentsReview": 12
+  },
+  "test_null_counts": {
+    "Unnamed: 0": 0,
+    "urlDrugName": 0,
+    "rating": 0,
+    "effectiveness": 0,
+    "sideEffects": 0,
+    "condition": 0,
+    "benefitsReview": 5,
+    "sideEffectsReview": 23,
+    "commentsReview": 1
+  }
+}

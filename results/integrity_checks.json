@@ -1,0 +1,12 @@
+{
+  "exact_combined_review_overlap_test_rows": 16,
+  "exact_overlap_by_raw_review_field_test_rows": {
+    "benefitsReview": 42,
+    "commentsReview": 24,
+    "sideEffectsReview": 106
+  },
+  "exact_full_row_overlap_test_rows": 0,
+  "near_duplicate_definition": "token-set Jaccard >= 0.90 on normalized combined review text; candidate search shares a token >3 chars",
+  "near_duplicate_test_rows": 20,
+  "note": "This does not make any de-duplicated result a headline result; it is a diagnostic only."
+}

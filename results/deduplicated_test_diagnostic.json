@@ -1,0 +1,40 @@
+{
+  "purpose": "diagnostic only; headline results remain the unmodified official test split",
+  "exact_combined_review_rows_removed": 16,
+  "retained_test_rows": 1020,
+  "models": {
+    "Tuned_Logistic_Regression": {
+      "official_test_accuracy": 0.7287644787644788,
+      "deduplicated_test_accuracy": 0.7254901960784313,
+      "deduplicated_balanced_accuracy": 0.729767973125889,
+      "deduplicated_macro_report": {
+        "precision": 0.7058232725587762,
+        "recall": 0.729767973125889,
+        "f1-score": 0.716211045917441,
+        "support": 1020.0
+      }
+    },
+    "Tuned_RandomForest": {
+      "official_test_accuracy": 0.7374517374517374,
+      "deduplicated_test_accuracy": 0.7333333333333333,
+      "deduplicated_balanced_accuracy": 0.7097667418802152,
+      "deduplicated_macro_report": {
+        "precision": 0.7199007112648981,
+        "recall": 0.7097667418802152,
+        "f1-score": 0.7145226405395376,
+        "support": 1020.0
+      }
+    },
+    "Tuned_SVC": {
+      "official_test_accuracy": 0.7374517374517374,
+      "deduplicated_test_accuracy": 0.7333333333333333,
+      "deduplicated_balanced_accuracy": 0.696991126220189,
+      "deduplicated_macro_report": {
+        "precision": 0.7299993073952868,
+        "recall": 0.696991126220189,
+        "f1-score": 0.7102470653130387,
+        "support": 1020.0
+      }
+    }
+  }
+}
