@@ -51,3 +51,19 @@ diagnostic side-by-side values, not replacement headline results. Full metrics a
 3. Approve a clearly labelled supplementary fold-contained Pipeline CV analysis.
 4. Approve a clearly labelled de-duplicated-test diagnostic, if desired.
 5. Review the reference audit before submission.
+
+## Supplementary experiments
+
+These analyses do not replace the official-split headline results. They are saved as
+`supplementary_5fold_pipeline_cv.csv`, `supplementary_test_metrics.json`,
+`supplementary_bootstrap_accuracy.json`, `supplementary_mcnemar_svc_vs_rf.json`, and
+`supplementary_ablation.csv`.
+
+- Fold-contained stratified five-fold CV gives mean accuracy 0.702 (LR), 0.709 (RF), and
+  0.718 (SVC), with macro-F1 means 0.697, 0.694, and 0.702 respectively.
+- Bootstrap 95% accuracy intervals are LR [0.701, 0.756], RF [0.711, 0.763], and SVC
+  [0.709, 0.764] using 2,000 fixed-seed replicates.
+- McNemar's exact two-sided test for SVC versus RF has 84 SVC-only correct and 84
+  RF-only correct cases (p=1.0).
+- The text-plus-categorical ablation is strongest for each model; text-only and
+  categorical-only values are reported without tuning or cherry-picking.

@@ -1,0 +1,26 @@
+{
+  "Logistic Regression": {
+    "accuracy": 0.7287644787644788,
+    "bootstrap_replicates": 2000,
+    "ci95_percentile": [
+      0.7007722007722008,
+      0.7557915057915058
+    ]
+  },
+  "Random Forest": {
+    "accuracy": 0.7374517374517374,
+    "bootstrap_replicates": 2000,
+    "ci95_percentile": [
+      0.7113899613899614,
+      0.7625482625482626
+    ]
+  },
+  "SVC": {
+    "accuracy": 0.7374517374517374,
+    "bootstrap_replicates": 2000,
+    "ci95_percentile": [
+      0.7094594594594594,
+      0.7635135135135135
+    ]
+  }
+}

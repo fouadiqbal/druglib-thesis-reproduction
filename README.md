@@ -10,6 +10,14 @@ This repository re-runs the undergraduate thesis pipeline on the official UCI Dr
 
 The official TSV files are under `data/raw/`. Outputs are written to `results/` and figures to `figures/`. See [reproduce/README.md](reproduce/README.md), [results/REPORT.md](results/REPORT.md), and [results/reconciliation.md](results/reconciliation.md).
 
+Supplementary analyses can be run with:
+
+```powershell
+.venv\Scripts\python.exe reproduce\supplementary_experiments.py
+```
+
 ## Kaggle evidence notebook
 
 `kaggle/official_uci_reproduction.ipynb` reproduces the pipeline in a visible notebook, preserves the thesis-reported values, and includes corrected ROC-AUC, confusion matrices, class distributions, review-length analysis, word cloud, and top-term outputs.
+
+The IEEEtran draft is in `paper/`; compile `paper/main.tex` after running the scripts.

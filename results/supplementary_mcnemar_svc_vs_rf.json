@@ -1,0 +1,5 @@
+{
+  "svc_correct_rf_wrong": 84,
+  "svc_wrong_rf_correct": 84,
+  "exact_binomial_pvalue_two_sided": 1.0
+}

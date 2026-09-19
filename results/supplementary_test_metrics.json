@@ -1,0 +1,119 @@
+{
+  "Logistic Regression": {
+    "accuracy": 0.7287644787644788,
+    "macro_f1": 0.7199949141499387,
+    "balanced_accuracy": 0.7335545273318536,
+    "matthews_corrcoef": 0.5572669555095109,
+    "classification_report": {
+      "No Side Effects": {
+        "precision": 0.662020905923345,
+        "recall": 0.7089552238805971,
+        "f1-score": 0.6846846846846847,
+        "support": 268.0
+      },
+      "Mild Side Effects": {
+        "precision": 0.7869481765834933,
+        "recall": 0.7243816254416962,
+        "f1-score": 0.7543698252069917,
+        "support": 566.0
+      },
+      "Severe Side Effects": {
+        "precision": 0.6798245614035088,
+        "recall": 0.7673267326732673,
+        "f1-score": 0.7209302325581395,
+        "support": 202.0
+      },
+      "accuracy": 0.7287644787644788,
+      "macro avg": {
+        "precision": 0.709597881303449,
+        "recall": 0.7335545273318536,
+        "f1-score": 0.7199949141499387,
+        "support": 1036.0
+      },
+      "weighted avg": {
+        "precision": 0.7337440464645003,
+        "recall": 0.7287644787644788,
+        "f1-score": 0.7298230922194952,
+        "support": 1036.0
+      }
+    }
+  },
+  "Random Forest": {
+    "accuracy": 0.7374517374517374,
+    "macro_f1": 0.7193958417850982,
+    "balanced_accuracy": 0.7146717084555879,
+    "matthews_corrcoef": 0.5558637524772976,
+    "classification_report": {
+      "No Side Effects": {
+        "precision": 0.7075098814229249,
+        "recall": 0.667910447761194,
+        "f1-score": 0.6871401151631478,
+        "support": 268.0
+      },
+      "Mild Side Effects": {
+        "precision": 0.7610921501706485,
+        "recall": 0.7879858657243817,
+        "f1-score": 0.7743055555555556,
+        "support": 566.0
+      },
+      "Severe Side Effects": {
+        "precision": 0.7055837563451777,
+        "recall": 0.6881188118811881,
+        "f1-score": 0.6967418546365914,
+        "support": 202.0
+      },
+      "accuracy": 0.7374517374517374,
+      "macro avg": {
+        "precision": 0.7247285959795837,
+        "recall": 0.7146717084555879,
+        "f1-score": 0.7193958417850982,
+        "support": 1036.0
+      },
+      "weighted avg": {
+        "precision": 0.7364080347487034,
+        "recall": 0.7374517374517374,
+        "f1-score": 0.7366335424177215,
+        "support": 1036.0
+      }
+    }
+  },
+  "SVC": {
+    "accuracy": 0.7374517374517374,
+    "macro_f1": 0.7151842275858243,
+    "balanced_accuracy": 0.7019810335023271,
+    "matthews_corrcoef": 0.5494139622349195,
+    "classification_report": {
+      "No Side Effects": {
+        "precision": 0.7214611872146118,
+        "recall": 0.5895522388059702,
+        "f1-score": 0.648870636550308,
+        "support": 268.0
+      },
+      "Mild Side Effects": {
+        "precision": 0.7420382165605095,
+        "recall": 0.823321554770318,
+        "f1-score": 0.7805695142378559,
+        "support": 566.0
+      },
+      "Severe Side Effects": {
+        "precision": 0.7407407407407407,
+        "recall": 0.693069306930693,
+        "f1-score": 0.7161125319693095,
+        "support": 202.0
+      },
+      "accuracy": 0.7374517374517374,
+      "macro avg": {
+        "precision": 0.7347467148386206,
+        "recall": 0.7019810335023271,
+        "f1-score": 0.7151842275858243,
+        "support": 1036.0
+      },
+      "weighted avg": {
+        "precision": 0.7364622185100328,
+        "recall": 0.7374517374517374,
+        "f1-score": 0.7339328253975961,
+        "support": 1036.0
+      }
+    }
+  }
+}
